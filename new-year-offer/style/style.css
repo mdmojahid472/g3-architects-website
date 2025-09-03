@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.head p{
+    font-size: 32px;
+}
+.head h1{
+    font-size: 72px;
+}
+.head-section{
+    width: 1320px;
+    background-image: linear-gradient(0deg, rgba(9.197244644165039, 8.92899227142334, 8.92899227142334, 1),rgba(16, 16, 16, 0) 100%),  url(../images/Banner\ Image.png);
+    background-size: cover;
+    background-position: center;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 100px auto;
+
+}
+
+.head{
+    text-align: center;
+    padding: 177px 344px 177px 344px; 
+    color: white;   
+
+}
+
+.section-offer{
+    height: 806px;
+    position: relative;
+    text-align: center;
+}
+.title-section{
+    color: #FF0000;
+    font-size: 88px;
+}
+.subtitle{
+    color: #FF0000;
+    font-size: 24px;
+}
+.section-all{
+    color: #070211;
+    font-size: 48px;
+}
+
+.Welcome-section{
+    background-image: linear-gradient(0deg, rgba(9.197244644165039, 8.92899227142334, 8.92899227142334, 1),rgba(16, 16, 16, 0) 100%), url(../images/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 100px auto;
+    color: white;
+}
+
+.Welcome{
+    text-align: center;
+    color: white;
+
+}
+.title-welcome{
+    font-size: 64px;
+}
+
+
+.Hotel-section{
+    height: 450px;
+    width: 1320px;
+    background-color: rgba(255, 0, 0, 0.1);
+    position: relative;
+    margin: 100px auto;
+}
+
+.Hotel{
+    padding: 130px 385px;
+    text-align: center;
+}
+
+.sp-bg{
+    color: #FF0000;
+}
+
+/* NEW-secton style */
+.NEW-secton{
+    height: 460px;
+    width: 1320px;
+    display: flex;
+    margin: 100px auto;
+}
+
+.Coming-title{
+    font-size: 48px;
+}
+
+
+/* FUNCTIONAL-section style */
+.FUNCTIONAL-section{
+    width: 1320px;
+    height: 986px;
+    display: flex;
+    margin: 100px auto;
+}
+
+.background-img{
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+}

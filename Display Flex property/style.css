@@ -1,0 +1,18 @@
+.parent{
+    /*padding: 30px;*/
+    background-color: tomato;
+    display: flex;
+     gap: 30px;
+    justify-content:space-between;
+    height: 350px;
+    align-items: center;
+    flex-direction: row-reverse; 
+    flex-wrap: wrap;
+}
+.child{
+    border: 2px solid green;
+    background: red;
+    padding: 20px;
+    font-size: 28px;
+    margin: 10px 0;
+}

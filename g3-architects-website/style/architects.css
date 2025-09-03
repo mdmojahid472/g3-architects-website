@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* header style */
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared style */
+.disply-flex{
+    display: flex;
+}
+
+/* dark 01 */
+.text-box{
+    color: #131313;
+}
+/* dark 02 */
+.text-gray{
+    color: #424242;
+}
+/* dark 03 */
+.text-light-gray{
+    color: #727272;
+}
+
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.bnt-primary{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    padding: 18px 20px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+}
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main > section{
+    margin-top: 130px;
+}
+
+/* navbar related style */
+.navbar{
+justify-content: space-between;
+align-items: center;
+}
+
+.brand{
+     font-weight: 700;
+     font-size: 3rem;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+
+.banner-img{
+    width: 100%;
+}
+
+/* team and feature related style */
+
+.teams{
+    align-items: center;
+}
+
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.our-features{
+    margin-left: 130px;
+    max-width: 530px;
+}
+
+.feature-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+#quick-list{
+    font-weight: 500;
+}
+
+
+/* feature style */
+
+.features {
+  display: flex;
+ justify-content: space-between;
+  /* align-items: flex-start; */
+  gap: 60px;
+  padding: 0px 20px 0px 0px;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 130px;
+  /* background-color: #ff8000; */
+}
+ .features-left-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 25px; 
+}
+
+ .description {
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+ .feature-box {
+  background: #FFFFFF;
+  padding: 20px 30px;
+  border-radius: 8px;
+  margin-bottom: 3.9rem;
+  box-shadow: 0px 3px 5px 3px rgba(35, 34, 34, 0.05);
+} 
+
+.feature-box h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.feature-subtitle {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.features-right {
+  position: relative;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+/* .features-right .main-img {
+  max-width: 100%;
+  border-radius: 10px;
+} */
+
+.experience {
+  position: absolute;
+  bottom: 1.8rem;
+  left: -30px; 
+  background: #FF900E;
+  color: #FFFFFF;
+  padding: 5px 30px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.experience h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.experience p {
+  font-size: 16px;
+}
+
+/* section-3 style */
+.section-3{
+    gap: 55px;
+}
+.section-box{
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border-style: solid ;
+    margin-top: 50px;
+}
+
+.exp{
+    padding: 10px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border-style: double;
+    grid-area: 20px;
+}
+
+.work-box{
+    padding: 10px 20px;
+    border-radius: 8px;
+    border-style:  solid;
+    text-align: center;
+    border-color: #FF900E;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box{
+    justify-content: space-around;
+}
+
+.some-title{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.some-discription{
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 50px;
+}
+
+
+/* footer style */
+
+.our-section{
+    justify-content: space-between;
+    text-align: center;
+}
+.socale-img{
+    justify-content: space-between;
+    margin-top: 50px;
+    opacity: 50px;
+}
+
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+footer >section{
+    margin-top: 180px;
+    margin-bottom: 130px;
+}
+
+.Copyright{
+    padding: 20px;
+    border-style: groove;
+    background-color: #FFF4E7;
+    margin-top: 130px;
+}
+
+.our-title{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.our-discription{
+    font-weight: 500;
+    font-size: 1rem;
+}
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+    
+}

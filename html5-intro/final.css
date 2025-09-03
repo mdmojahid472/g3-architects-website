@@ -1,0 +1,56 @@
+*{
+    padding: 3px;
+    margin: 5px;
+    font-family: 'Poppins' sans-serif;
+}
+.hero input{
+  background: #f6c3c3; 
+  position: relative;
+  left: 90vh;
+}
+.hero img{
+    position: relative;
+    left: 25%;
+}
+
+nav{
+    display: flex;
+    left: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 15px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav li:hover{
+    background-color: tomato;
+    padding: 5px 10px;
+    animation-duration: 4s;
+}
+
+nav input{
+    padding: 20px;
+    height: 2rem;
+    width: 10rem;
+    margin-top: 10px;
+}
+
+form{
+    text-align: left;
+}
+
+label{
+    display: block;
+}
+
+footer{
+    text-align: center;
+    margin-top: 30px;
+
+}
